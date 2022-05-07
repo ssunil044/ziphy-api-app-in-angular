@@ -1,0 +1,11 @@
+<div >
+<h3 class="text-left mt-5 mb-5">Trending GIFs</h3>
+</div>
+
+<div class="gifs">
+   
+    <div class="gif" *ngFor="let gif of gifs">
+        <img [src]="gif.images.downsized.url" alt="Image">
+         
+    </div>
+</div>
